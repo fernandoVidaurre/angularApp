@@ -5,6 +5,7 @@ import { IntegranteComponent } from './integrante/integrante.component';
 import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { AppRoutingModule} from '../app-routing.module';
+import { Pagina404Component } from './pagina404/pagina404.component';
 
 
 
@@ -14,7 +15,8 @@ import { AppRoutingModule} from '../app-routing.module';
     DashboardComponent,
     IntegranteComponent,
     QuienesSomosComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    Pagina404Component
   ],
   imports: [
     CommonModule, AppRoutingModule
@@ -23,7 +25,8 @@ import { AppRoutingModule} from '../app-routing.module';
     DashboardComponent,
     IntegranteComponent,
     QuienesSomosComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    Pagina404Component
   ]
 })
 export class PagesModule { }
